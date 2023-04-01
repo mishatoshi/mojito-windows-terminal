@@ -1,0 +1,23 @@
+{
+  "name": "Mojito",
+  "background": "#1B322C",
+  "foreground": "#FFFFFF",
+  "selectionBackground": "#26A69A",
+  "cursorColor": "#FFCA28",
+  "black": "#1B322C",
+  "white": "#B2DFDB",
+  "blue": "#2196F3",
+  "cyan": "#00BCD4",
+  "green": "#8BC34A",
+  "purple": "#9C27B0",
+  "red": "#F44336",
+  "yellow": "#FFEB3B",
+  "brightBlack": "#4DB6AC",
+  "brightWhite": "#FFFFFF",
+  "brightBlue": "#64B5F6",
+  "brightCyan": "#4DD0E1",
+  "brightGreen": "#AED581",
+  "brightPurple": "#BA68C8",
+  "brightRed": "#E57373",
+  "brightYellow": "#FFF176"
+}
