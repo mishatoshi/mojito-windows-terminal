@@ -1,46 +1,34 @@
+<p align="center"><img width="200px" src="./Mojito-512.png"></p>
+
 <h1 align="center">Mojito Theme for Windows Terminal</h1>
+
+<h3 align="center">Sometimes, all you need is Mojito Theme</h3>
 
 > You can download and install [Windows Terminal](https://github.com/microsoft/terminal)
 >
 > Recommended download and install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh2)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/110047849/229295588-79739bb1-072b-4f57-9140-0bc19db98cd9.png" alt="Windows Terminal">
+<p align="center">Mojito Theme
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/bbcc30ba-4efa-424c-b466-1a18bfbd01af">
+</p>
+<p align="center">Mojito Juicy Mint Theme
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/d2d32116-3f75-4bc2-acb4-4522c7baf9ed">
+</p>
+<p align="center">Mojito Blue Ocean Theme
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/ef31f479-bcf1-4e46-b8c3-a6eb0c6fe2f0">
 </p>
 
 ## ⚙️ Installation
 
 Start Windows Terminal and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select Settings option. Alternatively use `Ctrl + ,` to open Settings directly.
 
-In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of `mojito.json`.
+In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of `mojito.json` or `mojito-juicy-mint` or `mojito-blue-ocean`.
 
 Example:
 
 ```json
 "schemes": [
-  {
-    "name": "Mojito",
-    "background": "#1B322C",
-    "foreground": "#FFFFFF",
-    "selectionBackground": "#26A69A",
-    "cursorColor": "#FFCA28",
-    "black": "#1B322C",
-    "white": "#B2DFDB",
-    "blue": "#2196F3",
-    "cyan": "#00BCD4",
-    "green": "#8BC34A",
-    "purple": "#9C27B0",
-    "red": "#F44336",
-    "yellow": "#FFEB3B",
-    "brightBlack": "#4DB6AC",
-    "brightWhite": "#FFFFFF",
-    "brightBlue": "#64B5F6",
-    "brightCyan": "#4DD0E1",
-    "brightGreen": "#AED581",
-    "brightPurple": "#BA68C8",
-    "brightRed": "#E57373",
-    "brightYellow": "#FFF176"
-  }
+  // Paste the content
 ]
 ```
 
@@ -53,6 +41,7 @@ Example:
 ```json
 "profiles": {
     "defaults": {
+    // "Mojito Juicy Mint" or "Mojito Blue Ocean"
         "colorScheme" : "Mojito"
     }
 }
@@ -78,3 +67,5 @@ Change it to:
   ]
 },
 ```
+
+<h3 align="center">Don’t worry, be happy😍</h3>
