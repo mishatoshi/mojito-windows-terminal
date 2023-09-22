@@ -1,0 +1,23 @@
+{
+  "name": "Mojito Blue Ocean",
+  "background": "#1C262B",
+  "foreground": "#ECEFF1",
+  "selectionBackground": "#63879C",
+  "cursorColor": "#FFC107",
+  "black": "#1C262B",
+  "white": "#ECEFF1",
+  "blue": "#3F51B5",
+  "cyan": "#00BCD4",
+  "green": "#8BC34A",
+  "purple": "#9C27B0",
+  "red": "#F44336",
+  "yellow": "#FFEB3B",
+  "brightBlack": "#63879C",
+  "brightWhite": "#FFFFFF",
+  "brightBlue": "#7986CB",
+  "brightCyan": "#4DD0E1",
+  "brightGreen": "#AED581",
+  "brightPurple": "#BA68C8",
+  "brightRed": "#E57373",
+  "brightYellow": "#FFF176"
+}
