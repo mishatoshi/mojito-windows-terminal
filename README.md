@@ -67,5 +67,40 @@ Change it to:
   ]
 },
 ```
+<h2 align="center">Mojito Theme for Windows PowerShell and CMD</h2>
+
+### Install Microsoft ColorTool
+
+Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
+
+### Download color schemes
+
+- Go to the `ColorTool Schemes` folder
+- Select a color theme and click on the “Download raw file” button at the top right
+- Copy the contents of the `schemes` folder into the `ColorTool/schemes` folder
+
+### Set the color scheme
+
+- Go to the `ColorTool` folder
+- Run the `ColorTool` utility with the name of the scheme file:
+
+```PowerShell
+./Colortool -b ./schemes/mojito.ini
+```
+
+or
+
+```PowerShell
+./Colortool -b ./schemes/mojito-juicy-mint.ini
+```
+
+or
+
+```PowerShell
+./Colortool -b ./schemes/mojito-blue-ocean.ini
+```
+
+Without the `-b` the scheme is only set for the current window, not both the current window and default.
+To save the selected color scheme in memory, call up the `Properties` and immediately click `OK`.
 
 <h3 align="center">Don’t worry, be happy😍</h3>
