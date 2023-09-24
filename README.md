@@ -85,19 +85,19 @@ Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/
 - Run the `ColorTool` utility with the name of the scheme file:
 
 ```PowerShell
-./Colortool -b ./schemes/mojito.ini
+./ColorTool -b ./schemes/mojito.ini
 ```
 
 or
 
 ```PowerShell
-./Colortool -b ./schemes/mojito-juicy-mint.ini
+./ColorTool -b ./schemes/mojito-juicy-mint.ini
 ```
 
 or
 
 ```PowerShell
-./Colortool -b ./schemes/mojito-blue-ocean.ini
+./ColorTool -b ./schemes/mojito-blue-ocean.ini
 ```
 
 Without the `-b` the scheme is only set for the current window, not both the current window and default.
