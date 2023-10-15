@@ -1,10 +1,10 @@
 {
   "name": "Mojito",
-  "background": "#1B322C",
+  "background": "#102A27",
   "foreground": "#E0F2F1",
-  "selectionBackground": "#26A69A",
+  "selectionBackground": "#43A047",
   "cursorColor": "#FFC107",
-  "black": "#1B322C",
+  "black": "#102A27",
   "white": "#E0F2F1",
   "blue": "#3F51B5",
   "cyan": "#00BCD4",
