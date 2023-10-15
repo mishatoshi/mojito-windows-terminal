@@ -1,0 +1,23 @@
+{
+  "name": "Mojito Deep Purple",
+  "background": "#1D1D26",
+  "foreground": "#EDE7F6",
+  "selectionBackground": "#43A047",
+  "cursorColor": "#FFC107",
+  "black": "#1D1D26",
+  "white": "#EDE7F6",
+  "blue": "#3F51B5",
+  "cyan": "#00BCD4",
+  "green": "#8BC34A",
+  "purple": "#9C27B0",
+  "red": "#F44336",
+  "yellow": "#FFEB3B",
+  "brightBlack": "#70708F",
+  "brightWhite": "#FFFFFF",
+  "brightBlue": "#7986CB",
+  "brightCyan": "#4DD0E1",
+  "brightGreen": "#AED581",
+  "brightPurple": "#BA68C8",
+  "brightRed": "#E57373",
+  "brightYellow": "#FFF176"
+}
