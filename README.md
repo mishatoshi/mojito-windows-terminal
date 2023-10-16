@@ -97,4 +97,12 @@ Example:
 
 2. Right-click on the window titlebar and choose `Properties`, click `OK` to save
 
+## Other versions
+
+* Visual Studio Code [https://github.com/mishatoshi/mojito-vscode-theme](https://github.com/mishatoshi/mojito-vscode-theme)
+
+## License
+
+[MIT License](./LICENSE)
+
 <h3 align="center">Don’t worry, be happy😍</h3>
