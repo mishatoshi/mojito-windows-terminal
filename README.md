@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/d8f290e3-76d1-4dd8-b902-27a842bca56d">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/69f7d6c8-f1f8-4b6f-a9e7-da26bbfc15ea">
 </p>
 
 <h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
