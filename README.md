@@ -1,28 +1,27 @@
-<p align="center"><img width="200px" src="./Mojito-512.png"></p>
+<p align="center">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/d8f290e3-76d1-4dd8-b902-27a842bca56d">
+</p>
 
-<h1 align="center">Mojito Theme for Windows Terminal</h1>
+<h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
 
-<h3 align="center">Sometimes, all you need is Mojito Theme</h3>
+<h3 align="center">🍸 The Mojito Theme Collection includes five color themes for comfortable work</h3>
 
 > You can download and install [Windows Terminal](https://github.com/microsoft/terminal)
 >
 > Recommended download and install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh2)
 
-<p align="center">Mojito Theme
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/bbcc30ba-4efa-424c-b466-1a18bfbd01af">
-</p>
-<p align="center">Mojito Juicy Mint Theme
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/d2d32116-3f75-4bc2-acb4-4522c7baf9ed">
-</p>
-<p align="center">Mojito Blue Ocean Theme
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/ef31f479-bcf1-4e46-b8c3-a6eb0c6fe2f0">
-</p>
+## 1. Windows Terminal
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 Start Windows Terminal and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select Settings option. Alternatively use `Ctrl + ,` to open Settings directly.
 
-In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of `mojito.json` or `mojito-juicy-mint` or `mojito-blue-ocean`.
+In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of:
+* [Mojito](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito.json)
+* [Mojito Juicy Mint](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-juicy-mint.json)
+* [Mojito Blue Ocean](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-blue-ocean.json)
+* [Mojito Dark](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-dark.json)
+* [Mojito Deep Purple](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-deep-purple.json)
 
 Example:
 
@@ -41,66 +40,61 @@ Example:
 ```json
 "profiles": {
     "defaults": {
-    // "Mojito Juicy Mint" or "Mojito Blue Ocean"
-        "colorScheme" : "Mojito"
+        // "colorScheme": "Mojito Juicy Mint"
+        // "colorScheme": "Mojito Blue Ocean"
+        // "colorScheme": "Mojito Dark"
+        // "colorScheme": "Mojito Deep Purple"
+        "colorScheme": "Mojito"
     }
 }
 ```
 
-If the profiles are listed as below:
+## 2. Windows PowerShell and CMD
 
-```jsonc
-"profiles": [
-  // list of profiles
-]
-```
+### ⚙️ Installation
 
-Change it to:
+1. PSReadLine 2.0 or later. It's installed by default in Windows 10, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your PSReadLine version by running `(Get-Module PSReadLine).Version.Major`
+1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
+1. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
 
-```jsonc
-"profiles": {
-  "defaults": {
-    "colorScheme": "Mojito"
-  },
-  "list": [
-    // list of profiles
-  ]
-},
-```
-<h2 align="center">Mojito Theme for Windows PowerShell and CMD</h2>
+    * [Mojito](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito.ini)
+    * [Mojito Juicy Mint](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-juicy-mint.ini)
+    * [Mojito Blue Ocean](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-blue-ocean.ini)
+    * [Mojito Dark](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark.ini)
+    * [Mojito Deep Purple](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-deep-purple.ini)
 
-### Install Microsoft ColorTool
+1. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
 
-Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
+    * Mojito Theme
 
-### Download color schemes
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito.ini
+    ```
 
-- Go to the `ColorTool Schemes` folder
-- Select a color theme and click on the “Download raw file” button at the top right
-- Copy the contents of the `schemes` folder into the `ColorTool/schemes` folder
+    * Mojito Juicy Mint Theme
 
-### Set the color scheme
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-juicy-mint.ini
+    ```
 
-- Go to the `ColorTool` folder
-- Run the `ColorTool` utility with the name of the scheme file:
+    * Mojito Blue Ocean Theme
 
-```PowerShell
-./ColorTool -b ./schemes/mojito.ini
-```
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-blue-ocean.ini
+    ```
 
-or
+    * Mojito Dark Theme
 
-```PowerShell
-./ColorTool -b ./schemes/mojito-juicy-mint.ini
-```
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-dark.ini
+    ```
 
-or
+    * Mojito Deep Purple Theme
 
-```PowerShell
-./ColorTool -b ./schemes/mojito-blue-ocean.ini
-```
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-deep-purple.ini
+    ```
 
-Without the `-b` the scheme is only set for the current window, not both the current window and default.
-To save the selected color scheme in memory, call up the `Properties` and immediately click `OK`.
+2. Right-click on the window titlebar and choose `Properties`, click `OK` to save
 
 <h3 align="center">Don’t worry, be happy😍</h3>
