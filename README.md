@@ -95,7 +95,9 @@ Example:
     ./ColorTool -b ./schemes/mojito-deep-purple.ini
     ```
 
-2. Right-click on the window titlebar and choose `Properties`, click `OK` to save
+1. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your PowerShell `$profile` file
+
+1. Right-click on the window titlebar and choose `Properties`, click `OK` to save
 
 ## Other versions
 
