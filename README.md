@@ -1,18 +1,28 @@
 <p align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/69f7d6c8-f1f8-4b6f-a9e7-da26bbfc15ea">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/9afd50cd-3346-4e86-a255-c85155e4862d">
 </p>
 
 <h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
 
 <h3 align="center">🍸 The Mojito Theme Collection includes five color themes for comfortable work</h3>
 
-> You can download and install [Windows Terminal](https://github.com/microsoft/terminal)
+<div align="center">
+  <div>1. Mojito Theme</div>
+  <div>2. Mojito Juicy Mint Theme</div>
+  <div>3. Mojito Blue Ocean Theme</div>
+  <div>4. Mojito Dark Theme</div>
+  <div>5. Mojito Deep Purple Theme</div>
+</div>
+
+## Getting started
+
+> You can download and install the Windows Terminal [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 >
-> Recommended download and install [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh2)
+> Recommended download and install the Oh My Posh [https://github.com/JanDeDobbeleer/oh-my-posh2](https://github.com/JanDeDobbeleer/oh-my-posh2)
 
-## 1. Windows Terminal
+## ⚙️ Installation
 
-### ⚙️ Installation
+### 1. Windows Terminal
 
 Start Windows Terminal and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select Settings option. Alternatively use `Ctrl + ,` to open Settings directly.
 
@@ -49,13 +59,11 @@ Example:
 }
 ```
 
-## 2. Windows PowerShell and CMD
-
-### ⚙️ Installation
+### 2. Windows PowerShell and CMD
 
 1. PSReadLine 2.0 or later. It's installed by default in Windows 10, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your PSReadLine version by running `(Get-Module PSReadLine).Version.Major`
-1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
-1. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
+2. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
+3. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
 
     * [Mojito](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito.ini)
     * [Mojito Juicy Mint](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-juicy-mint.ini)
@@ -63,7 +71,7 @@ Example:
     * [Mojito Dark](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark.ini)
     * [Mojito Deep Purple](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-deep-purple.ini)
 
-1. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
+4. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
 
     * Mojito Theme
 
@@ -95,14 +103,15 @@ Example:
     ./ColorTool -b ./schemes/mojito-deep-purple.ini
     ```
 
-1. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your PowerShell `$profile` file
+5. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your PowerShell `$profile` file
 
-1. Right-click on the window titlebar and choose `Properties`, click `OK` to save
+6. Right-click on the window titlebar and choose `Properties`, click `OK` to save
 
 ## Other versions
 
 * Visual Studio Code [https://github.com/mishatoshi/mojito-vscode-theme](https://github.com/mishatoshi/mojito-vscode-theme)
 * Firefox [https://addons.mozilla.org/ru/firefox/addon/mojito-theme/](https://addons.mozilla.org/ru/firefox/addon/mojito-theme/)
+* Flow Launcher [https://github.com/mishatoshi/mojito-flowlauncher-theme](https://github.com/mishatoshi/mojito-flowlauncher-theme)
 
 ## License
 
