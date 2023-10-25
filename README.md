@@ -31,6 +31,7 @@
 Start Windows Terminal and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select Settings option. Alternatively use `Ctrl + ,` to open Settings directly.
 
 In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of:
+
 * [Mojito](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito.json)
 * [Mojito Juicy Mint](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-juicy-mint.json)
 * [Mojito Blue Ocean](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-blue-ocean.json)
@@ -66,8 +67,8 @@ Example:
 ### 2. Windows PowerShell and CMD
 
 1. PSReadLine 2.0 or later. It's installed by default in Windows 10, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your PSReadLine version by running `(Get-Module PSReadLine).Version.Major`
-2. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
-3. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
+1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
+1. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
 
     * [Mojito](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito.ini)
     * [Mojito Juicy Mint](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-juicy-mint.ini)
@@ -75,7 +76,7 @@ Example:
     * [Mojito Dark](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark.ini)
     * [Mojito Deep Purple](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-deep-purple.ini)
 
-4. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
+1. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
 
     * Mojito Theme
 
@@ -107,9 +108,39 @@ Example:
     ./ColorTool -b ./schemes/mojito-deep-purple.ini
     ```
 
-5. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your PowerShell `$profile` file
+1. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your PowerShell `$PROFILE` file
 
-6. Right-click on the window titlebar and choose `Properties`, click `OK` to save
+1. Right-click on the window titlebar and choose `Properties`, click `OK` to save
+
+## Installing additional features
+
+1. [Terminal-Icons](https://github.com/devblackops/Terminal-Icons). A PowerShell module to show file and folder icons in the terminal:
+    * Run the command `Install-Module -Name Terminal-Icons -Repository PSGallery`
+    * And then add one line to my `$PROFILE` > `Import-Module -Name Terminal-Icons`
+    * Now if you run the command `ls` you will see this:
+      ![PowerShell icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/84eed210-b812-4612-a710-f1852f48a5e7)
+
+1. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
+    * Run `Install-Module PSReadLine -AllowPrerelease -Force` and add the following line to `$PROFILE` > `Import-Module PSReadLine`
+    * Enable Predictive IntelliSense:
+
+      ```shell
+      Set-PSReadLineOption -PredictionSource History
+      Set-PSReadLineOption -PredictionViewStyle ListView
+      Set-PSReadLineOption -EditMode Windows
+      ```
+
+    * After saving `$PROFILE` and restarting the `shell`, you will have an ANSI-style list with a prediction of what you want to see next and a history of what you have already used:
+      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/fe33268e-edb7-4f68-b7b6-3bca9c3b7071)
+
+    * For easy navigation through the list that we have set above, it is necessary to add the following lines to the `$PROFILE`
+
+     ```shell
+     Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+     Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+     ```
+
+    * Use the up and down arrows to navigate through the sheet
 
 ## Other versions
 
