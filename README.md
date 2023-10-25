@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/9afd50cd-3346-4e86-a255-c85155e4862d">
+  <img src="./logo-512.png" width="150px" height="150px">
 </p>
 
 <h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
@@ -13,6 +13,10 @@
   <div>4. Mojito Dark Theme</div>
   <div>5. Mojito Deep Purple Theme</div>
 </div>
+
+<p align="center">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/0827743b-a5f2-4140-9268-e82f3df56138">
+</p>
 
 ## Getting started
 
