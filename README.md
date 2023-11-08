@@ -1,22 +1,22 @@
-<p align="center">
+<div align="center">
   <img src="./logo-512.png" width="150px" height="150px">
-</p>
+</div>
 
 <h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
 
-<h3 align="center">🍸 The Mojito Theme Collection includes five color themes for comfortable work</h3>
+<h3 align="center">🍸 Five beautiful dark themes for comfortable work. Choose your dark theme:</h3>
 
 <div align="center">
-  <div>1. Mojito Theme</div>
-  <div>2. Mojito Juicy Mint Theme</div>
-  <div>3. Mojito Blue Ocean Theme</div>
-  <div>4. Mojito Dark Theme</div>
-  <div>5. Mojito Deep Purple Theme</div>
+  <div>Mojito Theme</div>
+  <div>Mojito Juicy Mint Theme</div>
+  <div>Mojito Blue Ocean Theme</div>
+  <div>Mojito Dark Theme</div>
+  <div>Mojito Deep Purple Theme</div>
 </div>
-
-<p align="center">
+</br>
+<div align="center">
   <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/0827743b-a5f2-4140-9268-e82f3df56138">
-</p>
+</div>
 
 ## Getting started
 
