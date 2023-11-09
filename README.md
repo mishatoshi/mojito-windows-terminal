@@ -131,7 +131,7 @@ Example:
       ```
 
     * After saving `$PROFILE` and restarting the `shell`, you will have an ANSI-style list with a prediction of what you want to see next and a history of what you have already used:
-      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/80b5f7da-7d6f-40c0-98d2-8c11fd29d471)
+      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/a2abe356-0424-4e25-9079-17d7d0e9fe2d)
 
     * For easy navigation through the list that we have set above, it is necessary to add the following lines to the `$PROFILE`
 
