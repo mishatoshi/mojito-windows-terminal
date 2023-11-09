@@ -15,7 +15,7 @@
 </div>
 </br>
 <div align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/0827743b-a5f2-4140-9268-e82f3df56138">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/2168be26-c747-4473-9bd1-58b2e15cdc50">
 </div>
 
 ## Getting started
@@ -118,9 +118,9 @@ Example:
     * Run the command `Install-Module -Name Terminal-Icons -Repository PSGallery`
     * And then add one line to my `$PROFILE` > `Import-Module -Name Terminal-Icons`
     * Now if you run the command `ls` you will see this:
-      ![PowerShell icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/84eed210-b812-4612-a710-f1852f48a5e7)
+      ![PowerShell icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/63a14187-7995-486b-9965-0cc180b1370a)
 
-1. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
+2. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
     * Run `Install-Module PSReadLine -AllowPrerelease -Force` and add the following line to `$PROFILE` > `Import-Module PSReadLine`
     * Enable Predictive IntelliSense:
 
@@ -131,7 +131,7 @@ Example:
       ```
 
     * After saving `$PROFILE` and restarting the `shell`, you will have an ANSI-style list with a prediction of what you want to see next and a history of what you have already used:
-      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/fe33268e-edb7-4f68-b7b6-3bca9c3b7071)
+      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/80b5f7da-7d6f-40c0-98d2-8c11fd29d471)
 
     * For easy navigation through the list that we have set above, it is necessary to add the following lines to the `$PROFILE`
 
