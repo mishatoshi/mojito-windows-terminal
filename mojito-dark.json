@@ -1,10 +1,10 @@
 {
   "name": "Mojito Dark",
-  "background": "#1F1F1F",
+  "background": "#141414",
   "foreground": "#E6E6E6",
-  "selectionBackground": "#43A047",
+  "selectionBackground": "#007FFF",
   "cursorColor": "#FFC107",
-  "black": "#1F1F1F",
+  "black": "#141414",
   "white": "#E6E6E6",
   "blue": "#0B7DDA",
   "cyan": "#00CBE6",
