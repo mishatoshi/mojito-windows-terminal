@@ -1,10 +1,10 @@
 {
   "name": "Mojito Deep Purple",
-  "background": "#1D1D26",
+  "background": "#121217",
   "foreground": "#E6E6E6",
-  "selectionBackground": "#43A047",
+  "selectionBackground": "#007FFF",
   "cursorColor": "#FFC107",
-  "black": "#1D1D26",
+  "black": "#121217",
   "white": "#E6E6E6",
   "blue": "#0B7DDA",
   "cyan": "#00CBE6",
