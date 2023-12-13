@@ -1,4 +1,19 @@
-# Mojito Theme Collection for Windows Terminal, PowerShell and CMD
+# Mojito Theme for Windows Terminal, PowerShell and CMD
+
+## v2.25.0
+
+### Minor Changes
+
+1. ColorTool Schemes:
+    * Changed bright black color for Mojito Theme
+    * Changed dark black color for all themes
+2. Windows Terminal:
+    * Changed selection background color for all themes
+    * Changed background color for all themes
+    * Changed black color for all themes
+    * Changed bright black color for Mojito Theme
+
+___
 
 ## v2.3.0
 
