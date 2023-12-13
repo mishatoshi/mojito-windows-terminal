@@ -1,10 +1,10 @@
 {
   "name": "Mojito Blue Ocean",
-  "background": "#1C262B",
+  "background": "#12181C",
   "foreground": "#E6E6E6",
-  "selectionBackground": "#43A047",
+  "selectionBackground": "#007FFF",
   "cursorColor": "#FFC107",
-  "black": "#1C262B",
+  "black": "#12181C",
   "white": "#E6E6E6",
   "blue": "#0B7DDA",
   "cyan": "#00CBE6",
