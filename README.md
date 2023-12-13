@@ -1,21 +1,11 @@
 <div align="center">
-  <img src="./logo-512.png" width="150px" height="150px">
+  <img src="./mojito-logo-512.png" width="150px" height="150px">
+  <h1>Mojito Theme for Windows Terminal, PowerShell and CMD</h1>
+  <h3>🍸 Five beautiful dark themes for comfortable work</h3>
 </div>
 
-<h1 align="center">Mojito Theme Collection for Windows Terminal, PowerShell and CMD</h1>
-
-<h3 align="center">🍸 Five beautiful dark themes for comfortable work. Choose your dark theme:</h3>
-
 <div align="center">
-  <div>Mojito Theme</div>
-  <div>Mojito Juicy Mint Theme</div>
-  <div>Mojito Blue Ocean Theme</div>
-  <div>Mojito Dark Theme</div>
-  <div>Mojito Deep Purple Theme</div>
-</div>
-</br>
-<div align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/2168be26-c747-4473-9bd1-58b2e15cdc50">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/11407eb7-6fe4-4179-a8da-c387d68cfae1">
 </div>
 
 ## Getting started
@@ -78,31 +68,31 @@ Example:
 
 1. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
 
-    * Mojito Theme
+    * Mojito
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito.ini
     ```
 
-    * Mojito Juicy Mint Theme
+    * Mojito Juicy Mint
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-juicy-mint.ini
     ```
 
-    * Mojito Blue Ocean Theme
+    * Mojito Blue Ocean
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-blue-ocean.ini
     ```
 
-    * Mojito Dark Theme
+    * Mojito Dark
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-dark.ini
     ```
 
-    * Mojito Deep Purple Theme
+    * Mojito Deep Purple
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-deep-purple.ini
@@ -118,9 +108,9 @@ Example:
     * Run the command `Install-Module -Name Terminal-Icons -Repository PSGallery`
     * And then add one line to my `$PROFILE` > `Import-Module -Name Terminal-Icons`
     * Now if you run the command `ls` you will see this:
-      ![PowerShell icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/63a14187-7995-486b-9965-0cc180b1370a)
+      ![PowerShell Icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/3529fead-1219-4238-b5ae-8d164df54656)
 
-2. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
+1. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
     * Run `Install-Module PSReadLine -AllowPrerelease -Force` and add the following line to `$PROFILE` > `Import-Module PSReadLine`
     * Enable Predictive IntelliSense:
 
@@ -131,7 +121,7 @@ Example:
       ```
 
     * After saving `$PROFILE` and restarting the `shell`, you will have an ANSI-style list with a prediction of what you want to see next and a history of what you have already used:
-      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/a2abe356-0424-4e25-9079-17d7d0e9fe2d)
+      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/24e27688-8647-4ab4-8285-801f164bacf4)
 
     * For easy navigation through the list that we have set above, it is necessary to add the following lines to the `$PROFILE`
 
@@ -146,11 +136,11 @@ Example:
 
 * Visual Studio Code [https://github.com/mishatoshi/mojito-vscode-theme](https://github.com/mishatoshi/mojito-vscode-theme)
 * Firefox:
-  * Mojito Theme [https://addons.mozilla.org/ru/firefox/addon/mojito-theme/](https://addons.mozilla.org/ru/firefox/addon/mojito-theme/)
-  * Mojito Juicy Mint Theme [https://addons.mozilla.org/ru/firefox/addon/mojito-juicy-mint/](https://addons.mozilla.org/ru/firefox/addon/mojito-juicy-mint/)
-  * Mojito Blue Ocean Theme [https://addons.mozilla.org/ru/firefox/addon/mojito-blue-ocean/](https://addons.mozilla.org/ru/firefox/addon/mojito-blue-ocean/)
-  * Mojito Dark Theme [https://addons.mozilla.org/ru/firefox/addon/mojito-dark/](https://addons.mozilla.org/ru/firefox/addon/mojito-dark/)
-  * Mojito Deep Purple Theme [https://addons.mozilla.org/ru/firefox/addon/mojito-deep-purple/](https://addons.mozilla.org/ru/firefox/addon/mojito-deep-purple/)
+  * Mojito [https://addons.mozilla.org/ru/firefox/addon/mojito-theme/](https://addons.mozilla.org/ru/firefox/addon/mojito-theme/)
+  * Mojito Juicy Mint [https://addons.mozilla.org/ru/firefox/addon/mojito-juicy-mint/](https://addons.mozilla.org/ru/firefox/addon/mojito-juicy-mint/)
+  * Mojito Blue Ocean [https://addons.mozilla.org/ru/firefox/addon/mojito-blue-ocean/](https://addons.mozilla.org/ru/firefox/addon/mojito-blue-ocean/)
+  * Mojito Dark [https://addons.mozilla.org/ru/firefox/addon/mojito-dark/](https://addons.mozilla.org/ru/firefox/addon/mojito-dark/)
+  * Mojito Deep Purple [https://addons.mozilla.org/ru/firefox/addon/mojito-deep-purple/](https://addons.mozilla.org/ru/firefox/addon/mojito-deep-purple/)
 * Flow Launcher [https://github.com/mishatoshi/mojito-flowlauncher-theme](https://github.com/mishatoshi/mojito-flowlauncher-theme)
 
 ## License
