@@ -1,10 +1,10 @@
 {
   "name": "Mojito Juicy Mint",
-  "background": "#0C2719",
+  "background": "#081B11",
   "foreground": "#E6E6E6",
-  "selectionBackground": "#43A047",
+  "selectionBackground": "#007FFF",
   "cursorColor": "#FFC107",
-  "black": "#0C2719",
+  "black": "#081B11",
   "white": "#E6E6E6",
   "blue": "#0B7DDA",
   "cyan": "#00CBE6",
