@@ -1,6 +1,6 @@
 # Mojito Theme for Windows Terminal, PowerShell and CMD
 
-## v.3.0.0
+## v3.0.0
 
 ### Major Changes
 
