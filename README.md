@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="./mojito-logo-512.png" width="150px" height="150px">
+  <img src="./mojito-logo.png" width="100px" height="100px">
   <h1>Mojito Theme for Windows Terminal, PowerShell and CMD</h1>
   <h3>🍸 Five beautiful dark themes for comfortable work</h3>
 </div>
 
 <div align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/11407eb7-6fe4-4179-a8da-c387d68cfae1">
+  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/bbe33d90-5b41-4033-a6bf-9f8d7fcc5821">
 </div>
 
 ## Getting started
@@ -22,10 +22,10 @@ Start Windows Terminal and click on the down arrow symbol `˅` from menu bar. Th
 
 In the `settings.json` settings file for Windows Terminal, find the `schemes` section and paste the content of:
 
-* [Mojito](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito.json)
-* [Mojito Juicy Mint](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-juicy-mint.json)
-* [Mojito Blue Ocean](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-blue-ocean.json)
-* [Mojito Dark](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-dark.json)
+* [Mojito Dark Teal](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-dark-teal.json)
+* [Mojito Dark Green](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-dark-green.json)
+* [Mojito Blue Grey](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-blue-grey.json)
+* [Mojito Dark Grey](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-dark-grey.json)
 * [Mojito Deep Purple](https://raw.githubusercontent.com/mishatoshi/mojito-windows-terminal/master/mojito-deep-purple.json)
 
 Example:
@@ -45,11 +45,11 @@ Example:
 ```json
 "profiles": {
     "defaults": {
-        // "colorScheme": "Mojito Juicy Mint"
-        // "colorScheme": "Mojito Blue Ocean"
-        // "colorScheme": "Mojito Dark"
+        // "colorScheme": "Mojito Dark Green"
+        // "colorScheme": "Mojito Blue Grey"
+        // "colorScheme": "Mojito Dark Grey"
         // "colorScheme": "Mojito Deep Purple"
-        "colorScheme": "Mojito"
+        "colorScheme": "Mojito Dark Teal"
     }
 }
 ```
@@ -60,39 +60,39 @@ Example:
 1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the ColorTool release and extract the zip file.
 1. Download color schemes and paste to the unzipped `ColorTool/schemes` directory:
 
-    * [Mojito](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito.ini)
-    * [Mojito Juicy Mint](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-juicy-mint.ini)
-    * [Mojito Blue Ocean](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-blue-ocean.ini)
-    * [Mojito Dark](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark.ini)
+    * [Mojito Dark Teal](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark-teal.ini)
+    * [Mojito Dark Green](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark-green.ini)
+    * [Mojito Blue Grey](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-blue-grey.ini)
+    * [Mojito Dark Grey](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-dark-grey.ini)
     * [Mojito Deep Purple](https://github.com/mishatoshi/mojito-windows-terminal/blob/master/ColorTool%20Schemes/mojito-deep-purple.ini)
 
 1. Open PowerShell, navigate to the `ColorTool` directory. Select the downloaded color theme and run:
 
-    * Mojito
+    * **Mojito Dark Teal**
 
     ```PowerShell
-    ./ColorTool -b ./schemes/mojito.ini
+    ./ColorTool -b ./schemes/mojito-dark-teal.ini
     ```
 
-    * Mojito Juicy Mint
+    * **Mojito Dark Green**
 
     ```PowerShell
-    ./ColorTool -b ./schemes/mojito-juicy-mint.ini
+    ./ColorTool -b ./schemes/mojito-dark-green.ini
     ```
 
-    * Mojito Blue Ocean
+    * **Mojito Blue Grey**
 
     ```PowerShell
-    ./ColorTool -b ./schemes/mojito-blue-ocean.ini
+    ./ColorTool -b ./schemes/mojito-blue-grey.ini
     ```
 
-    * Mojito Dark
+    * **Mojito Dark Grey**
 
     ```PowerShell
-    ./ColorTool -b ./schemes/mojito-dark.ini
+    ./ColorTool -b ./schemes/mojito-dark-grey.ini
     ```
 
-    * Mojito Deep Purple
+    * **Mojito Deep Purple**
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-deep-purple.ini
@@ -108,9 +108,9 @@ Example:
     * Run the command `Install-Module -Name Terminal-Icons -Repository PSGallery`
     * And then add one line to my `$PROFILE` > `Import-Module -Name Terminal-Icons`
     * Now if you run the command `ls` you will see this:
-      ![PowerShell Icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/3529fead-1219-4238-b5ae-8d164df54656)
+      ![PowerShell Icons](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/a9bd01bd-8354-4692-a4d7-808351e56da2)
 
-1. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
+2. [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline?view=powershell-7.2) provides an improved command-line editing experience in the PowerShell console:
     * Run `Install-Module PSReadLine -AllowPrerelease -Force` and add the following line to `$PROFILE` > `Import-Module PSReadLine`
     * Enable Predictive IntelliSense:
 
@@ -121,7 +121,7 @@ Example:
       ```
 
     * After saving `$PROFILE` and restarting the `shell`, you will have an ANSI-style list with a prediction of what you want to see next and a history of what you have already used:
-      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/24e27688-8647-4ab4-8285-801f164bacf4)
+      ![PowerShell History](https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/f8c109aa-6dd2-4641-88ab-cca426c411a4)
 
     * For easy navigation through the list that we have set above, it is necessary to add the following lines to the `$PROFILE`
 
