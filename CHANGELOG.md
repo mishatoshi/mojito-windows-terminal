@@ -1,5 +1,50 @@
 # Mojito Theme for Windows Terminal, PowerShell and CMD
 
+## v.3.0.0
+
+### Major Changes
+
+1. The main theme of Mojito Dark Teal (Mojito) has been updated. The new color palette of the teal color.
+
+### Minor Changes
+
+1. Color changes for all themes:
+    * foreground
+    * selectionBackground
+    * white
+    * brightBlack
+    * brightBlue
+    * brightCyan
+    * brightRed
+
+1. Color changes for Mojito Dark Teal (Mojito):
+    * background
+    * black
+
+1. Color changes for Mojito Dark Green (Mojito Juicy Mint):
+    * background
+    * black
+
+1. Color changes for Mojito Blue Grey (Mojito Blue Ocean):
+    * background
+    * black
+
+1. Color changes for Microsoft.PowerShell_profile.ps1:
+    * Member (Object Property)
+    * Type
+    * Parameter
+    * Keyword
+
+### Patch Changes
+
+* Changes to the names of color themes:
+  * Mojito > Mojito Dark Teal
+  * Mojito Juicy Mint > Mojito Dark Green
+  * Mojito Blue Ocean > Mojito Blue Grey
+  * Mojito Dark > Mojito Dark Grey
+
+___
+
 ## v2.25.0
 
 ### Minor Changes
